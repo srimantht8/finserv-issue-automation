@@ -1,0 +1,36 @@
+# Environment
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.ruff_cache/
+venv/
+
+# State
+orchestrator/state.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# Editor / AI tool config
+.codex/
+.windsurf/
+.claude/
+
+# Test / benchmark caches
+.pytest_cache/
+.benchmarks/
